@@ -26,9 +26,11 @@ The method of submission is part of the test (usage of Git) - but we won't use `
         > Add follow up Questions here as a bulleted list and add an explanation why you ask each question (what do you expect to receive back)
 
         1.  Example Follow Up Question 1
+
             Explanation for Example Follow Up Question 1
         
         1.  Example Follow Up Question 2
+        
             Explanation for Example Follow Up Question 2
 
 
