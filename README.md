@@ -70,6 +70,7 @@ We need this information so that we know by which mechanism vendor will be acces
     Notes:
 
     -   Local machines in the same network can still be pinged by IP
+    
     Answers
     
        a) The First thing we will do i to verify if DNS entries are present for the  host (microsoft.com).
