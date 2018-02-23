@@ -25,7 +25,7 @@ The method of submission is part of the test (usage of Git) - but we won't use `
 
         > Add follow up Questions here as a bulleted list and add an explanation why you ask each question (what do you expect to receive back)
 
-        a) vendor should provide the specific host and port info to be whitelisted.
+       a) vendor should provide the specific host and port info to be whitelisted.
     Explanation- The reason we ask this information from vendor is to get his IP and Host details so that we can allow his IP in our network on the shared port given by vendor(80 or 443).
 
 	b) What security protocol should be followed for exchanging data/msgs
@@ -43,14 +43,14 @@ We need this information so that we know by which mechanism vendor will be acces
     1.2  Write a PowerShell command (assume Windows 2012 R2) to add a new firewall rule on a single server, allowing incoming connections on port `3389` for `TCP` protocol __limited to the public IP of the vendor only__ (assuming we have the public IP of the vendor)
 
     ```powershell
-    # netsh advfirewall firewall add rule name="192.168.0.100" dir=in action=allow protocol=TCP localport=3389
+     netsh advfirewall firewall add rule name="192.168.0.100" dir=in action=allow protocol=TCP localport=3389
 
     ```
 
 2.  How do you list all Computers in an Active Directory Domain using Powershell (output DNSHostname in a table format, no need for `filters` or `SearchBase`)
 
     ```powershell
-    # Import-Module ActiveDirectory  
+    Import-Module ActiveDirectory  
     Get-ADComputer -Filter * -Properties * | FT Name,DistinguishedName -a | Export-CSV AllComputers.csv -NoTypeInformation -Encoding UTF8
 
     ```
