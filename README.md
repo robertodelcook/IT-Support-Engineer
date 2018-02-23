@@ -70,8 +70,9 @@ We need this information so that we know by which mechanism vendor will be acces
     Notes:
 
     -   Local machines in the same network can still be pinged by IP
+    Answers
     
-        a) The First thing we will do i to verify if DNS entries are present for the  host (microsoft.com).
+       a) The First thing we will do i to verify if DNS entries are present for the  host (microsoft.com).
 	
 	b) If the DNS entry present is correct the next action will be to perform the ping test on atleast 2 different machines, the reason I would do this, is to get a high level overview of the issue, testing on one machine could yield a false positive.   
 	
