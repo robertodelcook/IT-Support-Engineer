@@ -25,36 +25,36 @@ The method of submission is part of the test (usage of Git) - but we won't use `
 
         > Add follow up Questions here as a bulleted list and add an explanation why you ask each question (what do you expect to receive back)
 
-       1. vendor should provide the specific host and port info to be whitelisted.
+        a) vendor should provide the specific host and port info to be whitelisted.
     Explanation- The reason we ask this information from vendor is to get his IP and Host details so that we can allow his IP in our network on the shared port given by vendor(80 or 443).
 
-	2. What security protocol should be followed for exchanging data/msgs
+	b) What security protocol should be followed for exchanging data/msgs
     Explanation:-  Network security protocols are primarily designed to prevent any unauthorised user, application, service or device from accessing network data. This applies to virtually all data types regardless of the network medium used.
 We need this information so that we know by which mechanism vendor will be accessing the server (SFTP, HTTPS, SSL)
 
-	3. URL filtering rules to be applied on your side in case if its a web call
+	c) URL filtering rules to be applied on your side in case if its a web call
 
-	4. If its non-web call, then ACL ( Access control list ) to be provided
+	d) If its non-web call, then ACL ( Access control list ) to be provided
     Explanation: We need information above to perform security to our server as Rules and filtering to be done on the target server,To avoid any malicious attempts to traverse other web page on the server
  
 
 
 
-    1.  Write a PowerShell command (assume Windows 2012 R2) to add a new firewall rule on a single server, allowing incoming connections on port `3389` for `TCP` protocol __limited to the public IP of the vendor only__ (assuming we have the public IP of the vendor)
+    1.2  Write a PowerShell command (assume Windows 2012 R2) to add a new firewall rule on a single server, allowing incoming connections on port `3389` for `TCP` protocol __limited to the public IP of the vendor only__ (assuming we have the public IP of the vendor)
 
     ```powershell
     # Add Answer Here
 
     ```
 
-1.  How do you list all Computers in an Active Directory Domain using Powershell (output DNSHostname in a table format, no need for `filters` or `SearchBase`)
+2.  How do you list all Computers in an Active Directory Domain using Powershell (output DNSHostname in a table format, no need for `filters` or `SearchBase`)
 
     ```powershell
     # Add Answer Here
 
     ```
 
-1.  What could possible troubleshoot tests be for the following output on a macOS machine. 
+3.  What could possible troubleshoot tests be for the following output on a macOS machine. 
     
     For each step, mention what would be your next step
 
