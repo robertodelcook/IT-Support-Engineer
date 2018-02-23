@@ -72,8 +72,11 @@ We need this information so that we know by which mechanism vendor will be acces
     -   Local machines in the same network can still be pinged by IP
     
         a) The First thing we will do i to verify if DNS entries are present for the  host (microsoft.com).
-	b) If the DNS entry present is correct the next action will be to perform the ping test on atleast 2 different machines, the reason I would do this, is to get a high level overview of the issue, testing on one machine could yield a false positive.     
+	
+	b) If the DNS entry present is correct the next action will be to perform the ping test on atleast 2 different machines, the reason I would do this, is to get a high level overview of the issue, testing on one machine could yield a false positive.   
+	
 	c) If the issue still persists then we will try and flush the DNS cache by running following command-  run ifconfig /flushdns and ifconfig /release - 
+	
 	D) If even after clearing DNS cache issue still persist then we need to check if server computers use a restrictive firewall which is blocking the ICMP packets from unknown hosts.
 
 Thank you for your time.
